@@ -9,6 +9,10 @@
   <style>
    .text1 {font-size: 40px}
    .text2 {font-size: 20px}
+
+.row {padding: 0px; margin: 0px}
+
+   @media (max-width: 1000px) {.row {padding: 0px; margin: 0px; display: flex; flex-direction: column-reverse;}}
   </style>
  </head>
  <body>
@@ -19,7 +23,7 @@
      <div style="align-self: ;">
       <ul class="navbar-nav" style="font-size: 15px">
        <li>
-        <a class="text-dark" style="padding-left: 25px" href="#"> About Me </a>
+        <a class="text-dark" style="padding-left: 750px" href="#"> About Me </a>
        </li>
        <li>
         <a class="text-dark" style="padding-left: 25px" href="#"> Contacts </a>
@@ -43,6 +47,8 @@
      </thead>
      <tbody>
       <tr style="background-color: #FE650D">
+
+<div class="row">
        <td class="col-md-6">
         <b>
          1. Have an escape plan in case of fire.
@@ -61,6 +67,8 @@
          <img src="Fire Extinguisher.png" height="200" width="300">
         </div>
        </td>
+</div>
+
       </tr>
       <tr style="background-color: #F33C04">
        <td class="col-6">
